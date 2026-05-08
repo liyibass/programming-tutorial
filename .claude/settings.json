@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📋 提醒：新檔案已建立。如果這是課程章節，記得執行 /check-lesson 審查內容是否符合規範。'"
+          }
+        ]
+      }
+    ]
+  }
+}
