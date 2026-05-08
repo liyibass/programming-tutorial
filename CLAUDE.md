@@ -115,16 +115,35 @@ programming-tutorial/
 
 ## 課外讀物引用格式
 
-在主線章節中引用課外讀物時，統一使用以下格式：
+統一使用標準 Markdown 連結，確保在 Obsidian 和任何 Markdown 閱讀器中都可點擊跳轉。
+
+### 路徑規則
+
+所有主線章節位於 `lessons/part-X/filename.md`（距離根目錄兩層），課外讀物位於 `課外讀物/E-X-xxx/filename.md`，因此：
+
+- **主線章節 → 課外讀物**：路徑固定為 `../../課外讀物/E-X-xxx/filename.md`
+- **課外讀物 → 同系列其他章節**：`./filename.md`
+- **課外讀物 → 其他系列**：`../E-X-xxx/filename.md`
+
+### 引用格式
 
 ```markdown
-> 想深入了解 XXX → **[課外讀物 E-X-X] 完整標題**
+> 想深入了解 XXX → [課外讀物 E-X-X：完整標題](../../課外讀物/E-X-xxx/E-X-X-filename.md)
 ```
 
 例如：
 ```markdown
-> 好奇瀏覽器輸入網址後發生什麼事 → **[課外讀物 E-3-1] 網際網路是怎麼運作的？**
+> 好奇瀏覽器輸入網址後發生什麼事 → [課外讀物 E-3-1：網際網路是怎麼運作的？](../../課外讀物/E-3-network/E-3-1-how-internet-works.md)
 ```
+
+課外讀物章節末尾引導其他課外讀物：
+```markdown
+> 這個原則在後端架構也很重要 → [課外讀物 E-7-6：D — Dependency Inversion Principle](../E-7-solid/E-7-6-dip.md)
+```
+
+### 檔名命名規則
+課外讀物檔名格式：`{編號}-{english-slug}.md`
+例如：`E-3-1-how-internet-works.md`、`E-7-2-single-responsibility.md`
 
 課外讀物本身的章節結構比主線課程輕鬆，不需要「小練習」區塊，但仍需要：
 - 目標說明

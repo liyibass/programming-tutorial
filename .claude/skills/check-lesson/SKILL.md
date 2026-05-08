@@ -29,7 +29,7 @@ user-invocable: true
 - [ ] 沒有連續超過 30 行未加說明的程式碼
 
 **課外讀物引用 Checklist：**
-- [ ] 如有對應課外讀物，格式正確（`> 想深入了解 XXX → **[課外讀物 E-X-X] 標題**`）
+- [ ] 如有對應課外讀物，使用標準 Markdown 連結格式（`> 想深入了解 XXX → [課外讀物 E-X-X：標題](../../課外讀物/...)`），不是純文字
 - [ ] 如是 POC 解鎖章節，有 POC 引導區塊
 
 **SOLID / Best Practice 引導 Checklist：**

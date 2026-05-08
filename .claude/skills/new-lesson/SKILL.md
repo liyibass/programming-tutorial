@@ -47,6 +47,8 @@ user-invocable: true
 
 ## 課外讀物
 
+> 想深入了解 XXX → [課外讀物 E-X-X：完整標題](../../課外讀物/E-X-xxx/E-X-X-filename.md)
+
 ```
 
 5. 建立完成後輸出檔案路徑，並提示下一步應填寫哪個區塊

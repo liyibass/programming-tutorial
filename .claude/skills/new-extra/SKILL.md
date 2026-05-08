@@ -28,6 +28,10 @@ user-invocable: true
    - `E-7-x` → `課外讀物/E-7-solid/`
    - `E-8-x` → `課外讀物/E-8-git/`
    - `E-9-x` → `課外讀物/E-9-testing/`
+   - `E-10-x` → `課外讀物/E-10-security/`
+   - `E-11-x` → `課外讀物/E-11-performance/`
+   - `E-12-x` → `課外讀物/E-12-design-patterns/`
+   - `E-13-x` → `課外讀物/E-13-scaling/`
 
 2. 檔名格式：`{編號}-{title-slug}.md`
 
@@ -49,6 +53,7 @@ user-invocable: true
 ## 延伸閱讀
 
 - （可選：推薦外部資源）
+- （可選：連結到相關課外讀物，格式：`[課外讀物 E-X-X：標題](../E-X-xxx/E-X-X-filename.md)`）
 ```
 
 4. 建立完成後輸出路徑，提示填寫「這篇在說什麼」和「概念說明」
