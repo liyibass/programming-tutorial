@@ -87,6 +87,13 @@ programming-tutorial/
 → 再對應到 TypeScript interface
 ```
 
+### Mermaid 換行規則
+Mermaid node label 裡換行一律用 `<br/>`，**不用 `\n`**（`\n` 在多數渲染器會顯示成文字而非換行）：
+```
+正確：A["第一行<br/>第二行"]
+錯誤：A["第一行\n第二行"]
+```
+
 ### Mermaid 圖表使用時機
 - **流程/步驟**：用 `flowchart` 或 `graph`
 - **時序互動**：用 `sequenceDiagram`（例如前後端 request/response）
