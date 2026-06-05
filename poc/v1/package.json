@@ -1,0 +1,13 @@
+{
+  "name": "todo-app-v1",
+  "version": "1.0.0",
+  "description": "POC V1 — 純前端 Todo App，資料存在 localStorage",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

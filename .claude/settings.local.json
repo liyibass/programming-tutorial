@@ -1,7 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(git push *)",
+      "Bash(ssh -T git@github.com)",
+      "Read(//Users/liyi.lu/.ssh/**)",
+      "Bash(ssh -vT git@github.com)",
+      "Bash(ssh-add -l)",
+      "Bash(ssh -T github-liyibass)",
+      "Bash(git remote *)",
+      "Bash(awk '{printf \"%6s  %s\\\\n\", $1, $2}')"
     ]
   }
 }

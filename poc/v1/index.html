@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App — POC V1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📝 我的待辦清單</h1>
+      <p class="subtitle">POC V1 — 純前端，資料存在瀏覽器</p>
+
+      <div class="input-row">
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="今天要做什麼？"
+          autocomplete="off"
+        />
+        <button id="add-btn">新增</button>
+      </div>
+
+      <ul id="todo-list"></ul>
+      <p id="empty-hint" class="empty-hint">還沒有待辦事項，新增一個吧！</p>
+
+      <p id="counter" class="counter"></p>
+    </div>
+
+    <!-- 載入由 src/main.ts 編譯出來的 JavaScript -->
+    <!-- 瀏覽器看不懂 TypeScript，所以要先用 tsc 編譯成 dist/main.js（見 README） -->
+    <script src="dist/main.js"></script>
+  </body>
+</html>

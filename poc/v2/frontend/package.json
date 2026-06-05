@@ -1,0 +1,13 @@
+{
+  "name": "todo-frontend-v2",
+  "version": "2.0.0",
+  "description": "POC V2 前端 — 用 fetch 跟後端溝通",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

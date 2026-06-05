@@ -1,0 +1,13 @@
+{
+  "name": "todo-frontend-v3",
+  "version": "3.0.0",
+  "description": "POC V3 前端 — 完整 CRUD",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

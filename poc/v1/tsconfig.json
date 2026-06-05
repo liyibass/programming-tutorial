@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // strict 模式：打開所有嚴格檢查，讓 TypeScript 幫你抓最多錯
+    "strict": true,
+
+    // 編譯目標。瀏覽器看得懂 ES2020，用現代語法不必擔心相容性
+    "target": "ES2020",
+    "module": "ES2020",
+
+    // 讓 TypeScript 認得瀏覽器環境（document、localStorage 等）
+    "lib": ["ES2020", "DOM"],
+
+    // 原始碼放 src/，編譯結果放 dist/，HTML 載入 dist/main.js
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}
