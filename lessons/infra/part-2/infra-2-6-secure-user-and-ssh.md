@@ -129,7 +129,7 @@ ssh deploy@伺服器IP位址
 現在，用 `deploy` 登入後，編輯 SSH 服務的設定檔（位置還記得嗎？在 `/etc` 設定大本營，2-1 學過）：
 
 ```bash
-sudo nano /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
 ```
 
 找到並修改（或新增）這兩行，把值改成 `no`：
@@ -139,7 +139,7 @@ PermitRootLogin no
 PasswordAuthentication no
 ```
 
-`PermitRootLogin no` = 不准 root 直接 SSH 登入；`PasswordAuthentication no` = 不准用密碼登入，只認金鑰。存檔離開（nano 是 `Ctrl+O` 存檔、`Ctrl+X` 離開）。
+`PermitRootLogin no` = 不准 root 直接 SSH 登入；`PasswordAuthentication no` = 不准用密碼登入，只認金鑰。存檔離開（vi 的操作：按 `i` 進入編輯模式、改完按 `Esc` 退出編輯、再輸入 `:wq` 存檔離開）。
 
 讓設定生效，重啟 SSH 服務：
 

@@ -104,7 +104,7 @@ graph LR
 把前面的觀念組合起來，寫一個「一鍵檢查伺服器健康」的腳本。建立檔案：
 
 ```bash
-nano ~/infra-practice/healthcheck.sh
+vi ~/infra-practice/healthcheck.sh
 ```
 
 寫入：

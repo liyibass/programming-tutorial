@@ -71,7 +71,7 @@ myapp/
 
 ```bash
 mkdir -p /home/deploy/myapp/nginx
-nano /home/deploy/myapp/nginx/default.conf
+vi /home/deploy/myapp/nginx/default.conf
 ```
 
 ```nginx
@@ -94,7 +94,7 @@ server {
 ### 第二步：寫 docker-compose.yml
 
 ```bash
-nano /home/deploy/myapp/docker-compose.yml
+vi /home/deploy/myapp/docker-compose.yml
 ```
 
 ```yaml

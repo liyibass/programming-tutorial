@@ -83,7 +83,7 @@ DATABASE_URL = postgres://user:pass@db:5432/mydb
 在專案資料夾建立：
 
 ```bash
-nano /home/deploy/myapp/docker-compose.yml
+vi /home/deploy/myapp/docker-compose.yml
 ```
 
 寫入一套「後端 + 資料庫」的設定：

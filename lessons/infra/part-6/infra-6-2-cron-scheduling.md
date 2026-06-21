@@ -82,7 +82,7 @@ graph LR
 crontab -e
 ```
 
-第一次會問你選編輯器，選 `nano` 最簡單。打開後，在最下面加一行。例如「每天凌晨 3 點，執行 Part 6-1 的健康檢查腳本」：
+第一次會問你選編輯器，選 `vi`（或 `vim`）。打開後，在最下面加一行。例如「每天凌晨 3 點，執行 Part 6-1 的健康檢查腳本」：
 
 ```
 0 3 * * * /home/deploy/infra-practice/healthcheck.sh

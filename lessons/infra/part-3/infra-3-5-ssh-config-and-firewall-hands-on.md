@@ -35,7 +35,7 @@ graph LR
 編輯設定檔：
 
 ```bash
-nano ~/.ssh/config
+vi ~/.ssh/config
 ```
 
 假設你有兩台機器：一台對外的網頁伺服器、一台只能透過它進去的內部資料庫機。寫成這樣：

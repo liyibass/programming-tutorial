@@ -36,7 +36,7 @@ graph LR
 建立 `backup.sh`：
 
 ```bash
-nano ~/infra-practice/backup.sh
+vi ~/infra-practice/backup.sh
 ```
 
 ```bash

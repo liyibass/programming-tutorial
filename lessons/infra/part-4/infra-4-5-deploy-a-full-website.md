@@ -73,7 +73,7 @@ server.listen(3000, "127.0.0.1", () => {
 建立服務檔（做法同 Part 4-2）：
 
 ```bash
-sudo nano /etc/systemd/system/myapp.service
+sudo vi /etc/systemd/system/myapp.service
 ```
 
 ```ini
@@ -113,7 +113,7 @@ curl http://localhost:3000
 建立網站設定（做法同 Part 4-3）：
 
 ```bash
-sudo nano /etc/nginx/sites-available/myapp
+sudo vi /etc/nginx/sites-available/myapp
 ```
 
 ```nginx

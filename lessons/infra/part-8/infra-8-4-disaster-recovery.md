@@ -85,7 +85,7 @@ graph LR
 在你的專案建立 `DISASTER-RECOVERY.md`：
 
 ```bash
-nano ~/infra-practice/DISASTER-RECOVERY.md
+vi ~/infra-practice/DISASTER-RECOVERY.md
 ```
 
 ```markdown

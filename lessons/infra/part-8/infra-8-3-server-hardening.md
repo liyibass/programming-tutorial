@@ -115,7 +115,7 @@ sudo fail2ban-client status sshd
 
 ```bash
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
-sudo nano /etc/fail2ban/jail.local
+sudo vi /etc/fail2ban/jail.local
 ```
 
 在 `jail.local` 裡可調 `maxretry`（容許失敗次數）、`bantime`（封鎖時長）等。改完重啟：

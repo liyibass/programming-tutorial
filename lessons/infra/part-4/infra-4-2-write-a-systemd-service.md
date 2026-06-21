@@ -54,7 +54,7 @@ graph TB
 為了專心學 systemd，我們用一個最簡單的程式。在 `deploy` 的家目錄建立一個小腳本（任何會「一直跑」的程式都行）：
 
 ```bash
-nano /home/deploy/hello-service.sh
+vi /home/deploy/hello-service.sh
 ```
 
 寫入一個每 10 秒印一次時間的無窮迴圈（模擬一個「常駐服務」）：
@@ -80,7 +80,7 @@ chmod +x /home/deploy/hello-service.sh
 服務檔放在 `/etc/systemd/system/`（又是 `/etc` 設定大本營，Part 2-1 學過）。建立它：
 
 ```bash
-sudo nano /etc/systemd/system/hello.service
+sudo vi /etc/systemd/system/hello.service
 ```
 
 寫入三段設定：

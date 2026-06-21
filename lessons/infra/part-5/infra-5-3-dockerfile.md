@@ -99,7 +99,7 @@ graph TB
 用 Part 4 那個簡單的 Node 後端。在專案資料夾 `/home/deploy/myapp/` 裡，除了 `server.js` 和 `package.json`，再建一個 Dockerfile：
 
 ```bash
-nano /home/deploy/myapp/Dockerfile
+vi /home/deploy/myapp/Dockerfile
 ```
 
 填入前面那份範例內容。
@@ -107,7 +107,7 @@ nano /home/deploy/myapp/Dockerfile
 順便建一個 `.dockerignore`（像 `.gitignore`，告訴 Docker 哪些別打包進去）：
 
 ```bash
-nano /home/deploy/myapp/.dockerignore
+vi /home/deploy/myapp/.dockerignore
 ```
 
 ```

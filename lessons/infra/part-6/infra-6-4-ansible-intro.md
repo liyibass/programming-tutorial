@@ -127,7 +127,7 @@ ansible --version
 建立一份機器清單：
 
 ```bash
-nano ~/infra-practice/inventory.ini
+vi ~/infra-practice/inventory.ini
 ```
 
 ```ini

@@ -112,7 +112,7 @@ Nginx 的設定檔放在 `/etc/nginx/`（又是 `/etc`）。結構是這樣：
 假設你的後端服務（Part 4-2 那種）跑在 `localhost:3000`，你要讓 Nginx 把請求轉給它。建立一份網站設定：
 
 ```bash
-sudo nano /etc/nginx/sites-available/myapp
+sudo vi /etc/nginx/sites-available/myapp
 ```
 
 寫入：

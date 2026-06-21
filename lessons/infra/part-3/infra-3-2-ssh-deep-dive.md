@@ -84,7 +84,7 @@ graph LR
 在你自己電腦編輯（沒有這個檔就新建）：
 
 ```bash
-nano ~/.ssh/config
+vi ~/.ssh/config
 ```
 
 寫入一段（用你自己的值）：

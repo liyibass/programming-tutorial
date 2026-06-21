@@ -55,7 +55,7 @@ cd ~/infra-practice/monitoring
 建立 `prometheus.yml`，告訴 Prometheus「要去抓誰」：
 
 ```bash
-nano ~/infra-practice/monitoring/prometheus.yml
+vi ~/infra-practice/monitoring/prometheus.yml
 ```
 
 ```yaml
@@ -79,7 +79,7 @@ scrape_configs:
 ### 第二步：docker-compose.yml
 
 ```bash
-nano ~/infra-practice/monitoring/docker-compose.yml
+vi ~/infra-practice/monitoring/docker-compose.yml
 ```
 
 ```yaml

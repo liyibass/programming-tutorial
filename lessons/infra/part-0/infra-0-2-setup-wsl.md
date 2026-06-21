@@ -78,7 +78,7 @@ sudo apt update && sudo apt upgrade -y
 在 WSL 裡編輯 `/etc/wsl.conf`（又是 `/etc` 設定大本營，Part 2-1 會學到）：
 
 ```bash
-sudo nano /etc/wsl.conf
+sudo vi /etc/wsl.conf
 ```
 
 加入這兩行：
@@ -88,7 +88,7 @@ sudo nano /etc/wsl.conf
 systemd=true
 ```
 
-存檔離開（nano 是 `Ctrl+O` 存檔、`Ctrl+X` 離開）。然後**回到 Windows 的 PowerShell**，把 WSL 完整關閉再重開，讓設定生效：
+存檔離開（vi 的操作：按 `i` 進入編輯模式、改完按 `Esc` 退出編輯、再輸入 `:wq` 存檔離開）。然後**回到 Windows 的 PowerShell**，把 WSL 完整關閉再重開，讓設定生效：
 
 ```powershell
 wsl --shutdown

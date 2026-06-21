@@ -50,7 +50,7 @@ infra-practice/
 
 ```bash
 mkdir -p ~/infra-practice/files
-nano ~/infra-practice/files/myapp.conf
+vi ~/infra-practice/files/myapp.conf
 ```
 
 ```nginx
@@ -72,7 +72,7 @@ server {
 建立 `site.yml`：
 
 ```bash
-nano ~/infra-practice/site.yml
+vi ~/infra-practice/site.yml
 ```
 
 ```yaml
