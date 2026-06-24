@@ -11,14 +11,22 @@
 
 ```mermaid
 graph TB
+    CS["📐 cs<br/>計算機概論<br/>(理論地基)"]
     BASIC["📘 basic<br/>全端程式入門"]
+    DSA["📐 dsa<br/>資料結構與演算法"]
     CSHARP["📗 csharp<br/>C# 後端開發"]
+    RUST["🦀 rust<br/>Rust 程式設計"]
     CACHE["📙 cache<br/>快取完全攻略"]
     INFRA["📕 infra<br/>自架基礎建設"]
     AWS["📒 aws<br/>雲端基礎建設"]
     SRE["📓 sre<br/>網站可靠性工程"]
     EXTRA["📚 課外讀物 E-1~E-14<br/>所有書共用的延伸知識"]
 
+    CS --> BASIC
+    CS --> DSA
+    CS --> RUST
+    BASIC --> DSA
+    BASIC --> RUST
     BASIC --> CSHARP
     BASIC --> CACHE
     BASIC --> INFRA
@@ -26,14 +34,14 @@ graph TB
     INFRA --> SRE
     AWS --> SRE
     EXTRA -.共用.-> BASIC
-    EXTRA -.共用.-> CSHARP
+    EXTRA -.共用.-> DSA
     EXTRA -.共用.-> CACHE
     EXTRA -.共用.-> INFRA
     EXTRA -.共用.-> AWS
     EXTRA -.共用.-> SRE
 ```
 
-上圖：先打好 `basic` 的程式基礎，再依興趣往後端（csharp）、快取（cache）、自架（infra）、雲端（aws）發展；infra / aws 之後可接 sre 學「讓系統跑得可靠」。課外讀物則被所有書交叉引用。
+上圖：`cs`（計算機概論）是底層理論地基；`basic` 是程式入門；兩者打底後可接 `dsa`（資料結構與演算法）練效率思維、`rust`（系統級語言）深入記憶體，或往後端（csharp）、快取（cache）、自架（infra）、雲端（aws）發展；infra / aws 之後可接 sre 學「讓系統跑得可靠」。課外讀物則被所有書交叉引用。
 
 ---
 
@@ -41,14 +49,17 @@ graph TB
 
 | 書 | 主題 | 你學完能做什麼 | 章節數 | 狀態 |
 |----|------|--------------|:----:|:----:|
+| 📐 **[cs](lessons/cs/課程大綱.md)** | 計算機概論 | 打開電腦黑盒子：資料表示、硬體、程式執行、作業系統、網路的底層直覺 | 0 | 📝 僅大綱 |
 | 📘 **[basic](lessons/basic/課程大綱.md)** | 全端程式入門 | 建立程式思維，用 TypeScript 從前端、後端、資料庫到部署做出完整 app | 53 | ✅ |
+| 📐 **[dsa](lessons/dsa/課程大綱.md)** | 資料結構與演算法 | 分析複雜度（Big-O）、熟悉各種資料結構與經典演算法，選對解法 | 0 | 📝 僅大綱 |
+| 🦀 **[rust](lessons/rust/課程大綱.md)** | Rust 程式設計 | 駕馭所有權/借用/生命週期，用 Axum + 資料庫做出高效能 Web 後端 | 52 | ✅ |
 | 📗 **[csharp](lessons/csharp/課程大綱.md)** | C# 後端開發 | 用 C# / ASP.NET Core 獨立開發、測試、部署一個完整後端 API | 0 | 📝 僅大綱 |
 | 📙 **[cache](lessons/cache/課程大綱.md)** | 快取完全攻略 | 看懂、設計、除錯各層快取（瀏覽器 / CDN / Redis / DB），避開經典的坑 | 30 | ✅ |
 | 📕 **[infra](lessons/infra/課程大綱.md)** | 自架基礎建設 | 獨立管理 Linux 伺服器、架設服務、設網路安全、自動化與監控 | 44 | ✅ |
 | 📒 **[aws](lessons/aws/課程大綱.md)** | 雲端基礎建設 | 安全地使用 AWS、讀懂 VPC/EKS 架構圖、把 app 部署上雲、控管帳單 | 53 | ✅ |
 | 📓 **[sre](lessons/sre/課程大綱.md)** | 網站可靠性工程 | 定義 SLO、建立觀測性、設計告警、主導事故處理、為系統設計韌性 | 44 | ✅ |
 
-> `csharp` 目前只有大綱、章節內容尚未撰寫。
+> `cs`、`dsa`、`csharp` 目前只有大綱、章節內容尚未撰寫。
 
 ### 📚 課外讀物（E 系列，所有書共用）
 
@@ -79,7 +90,7 @@ programming-tutorial/
 │   │   ├── intro/
 │   │   ├── part-0/ … part-7/
 │   │   └── ...
-│   ├── csharp/  cache/  infra/  aws/  sre/
+│   ├── cs/  dsa/  rust/  csharp/  cache/  infra/  aws/  sre/
 ├── 課外讀物/            # 所有書共用的延伸閱讀（E-1 ~ E-14）
 │   ├── 課程大綱.md       # 課外讀物總目錄（共用）
 │   ├── E-1-terminal/ … E-14-observability/

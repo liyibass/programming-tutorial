@@ -33,7 +33,16 @@ programming-tutorial/
 │   ├── csharp/          # C# 後端開發系列（大綱已備，章節待寫；檔名 csharp-X-Y-xxx.md）
 │   │   ├── 課程大綱.md
 │   │   └── ...
-│   ├── cache/           # 快取系列（大綱已備，章節待寫；檔名 cache-X-Y-xxx.md）
+│   ├── cache/           # 快取系列（章節已完成；檔名 cache-X-Y-xxx.md）
+│   │   ├── 課程大綱.md
+│   │   └── ...
+│   ├── cs/              # 計算機概論系列（大綱已備，章節待寫；檔名 cs-X-Y-xxx.md）
+│   │   ├── 課程大綱.md
+│   │   └── ...
+│   ├── dsa/             # 資料結構與演算法系列（大綱已備，章節待寫；範例用 TypeScript；檔名 dsa-X-Y-xxx.md）
+│   │   ├── 課程大綱.md
+│   │   └── ...
+│   ├── rust/            # Rust 程式設計系列（章節已完成；檔名 rust-X-Y-xxx.md）
 │   │   ├── 課程大綱.md
 │   │   └── ...
 │   └── ...              # 未來可再新增其他主題
