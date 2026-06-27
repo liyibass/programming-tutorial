@@ -30,7 +30,7 @@ programming-tutorial/
 │   ├── sre/             # SRE 網站可靠性工程系列（大綱已備，章節待寫；檔名 sre-X-Y-xxx.md）
 │   │   ├── 課程大綱.md
 │   │   └── ...
-│   ├── csharp/          # C# 後端開發系列（大綱已備，章節待寫；檔名 csharp-X-Y-xxx.md）
+│   ├── csharp/          # C# 後端開發系列（章節已完成；檔名 csharp-X-Y-xxx.md）
 │   │   ├── 課程大綱.md
 │   │   └── ...
 │   ├── cache/           # 快取系列（章節已完成；檔名 cache-X-Y-xxx.md）

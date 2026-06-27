@@ -53,13 +53,13 @@ graph TB
 | 📘 **[basic](lessons/basic/課程大綱.md)** | 全端程式入門 | 建立程式思維，用 TypeScript 從前端、後端、資料庫到部署做出完整 app | 53 | ✅ |
 | 📐 **[dsa](lessons/dsa/課程大綱.md)** | 資料結構與演算法 | 分析複雜度（Big-O）、熟悉各種資料結構與經典演算法，選對解法 | 38 | ✅ |
 | 🦀 **[rust](lessons/rust/課程大綱.md)** | Rust 程式設計 | 駕馭所有權/借用/生命週期，用 Axum + 資料庫做出高效能 Web 後端 | 52 | ✅ |
-| 📗 **[csharp](lessons/csharp/課程大綱.md)** | C# 後端開發 | 用 C# / ASP.NET Core 獨立開發、測試、部署一個完整後端 API | 0 | 📝 僅大綱 |
+| 📗 **[csharp](lessons/csharp/課程大綱.md)** | C# 後端開發 | 用 C# / ASP.NET Core 獨立開發、測試、部署一個完整後端 API | 56 | ✅ |
 | 📙 **[cache](lessons/cache/課程大綱.md)** | 快取完全攻略 | 看懂、設計、除錯各層快取（瀏覽器 / CDN / Redis / DB），避開經典的坑 | 30 | ✅ |
 | 📕 **[infra](lessons/infra/課程大綱.md)** | 自架基礎建設 | 獨立管理 Linux 伺服器、架設服務、設網路安全、自動化與監控 | 44 | ✅ |
 | 📒 **[aws](lessons/aws/課程大綱.md)** | 雲端基礎建設 | 安全地使用 AWS、讀懂 VPC/EKS 架構圖、把 app 部署上雲、控管帳單 | 53 | ✅ |
 | 📓 **[sre](lessons/sre/課程大綱.md)** | 網站可靠性工程 | 定義 SLO、建立觀測性、設計告警、主導事故處理、為系統設計韌性 | 44 | ✅ |
 
-> `csharp` 目前只有大綱、章節內容尚未撰寫。
+> 🎉 九本書的章節內容皆已完成。
 
 ### 📚 課外讀物（E 系列，所有書共用）
 
